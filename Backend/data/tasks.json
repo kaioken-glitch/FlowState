@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Complete project proposal",
+    "description": "Write comprehensive project proposal for Q2",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2025-07-20T15:30",
+    "estimatedTime": "4",
+    "assignedTo": "John Doe",
+    "tags": "project,urgent,proposal",
+    "status": "in-progress",
+    "completed": false,
+    "createdAt": "2025-07-17T11:37:35.453Z",
+    "updatedAt": "2025-07-17T11:37:35.454Z"
+  },
+  {
+    "id": 2,
+    "title": "Review team feedback",
+    "description": "Go through team feedback on last sprint",
+    "category": "Work",
+    "priority": "medium",
+    "dueDate": "2025-07-18T10:00",
+    "estimatedTime": "2",
+    "assignedTo": "Self",
+    "tags": "review,team",
+    "status": "todo",
+    "completed": false,
+    "createdAt": "2025-07-17T11:37:35.454Z",
+    "updatedAt": "2025-07-17T11:37:35.454Z"
+  },
+  {
+    "id": 3,
+    "title": "Group Project",
+    "description": "To Discuss projects we can work on as a group , also breaking responsibility based group members area of proficiency.",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2025-07-17T15:39",
+    "estimatedTime": "3.0",
+    "assignedTo": "Cyprian",
+    "tags": "Urgent, meeting, Planning",
+    "status": "todo",
+    "completed": false,
+    "createdAt": "2025-07-17T11:40:33.392Z",
+    "updatedAt": "2025-07-17T11:50:39.931Z"
+  }
+]
