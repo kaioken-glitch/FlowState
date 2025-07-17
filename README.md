@@ -233,18 +233,20 @@ Content-Type: application/json
 
 ### Deploy to Render
 
-1. **Backend Deployment**
+1. **Backend Deployment (Web Service)**
    - Create a new Web Service on [Render](https://render.com)
    - Connect your GitHub repository
-   - Set build command: `npm install`
-   - Set start command: `npm start`
+   - Set **Root Directory**: `Backend`
+   - Set **Build Command**: `npm install`
+   - Set **Start Command**: `npm start`
    - Add environment variables as needed
 
-2. **Frontend Deployment**
+2. **Frontend Deployment (Static Site)**
    - Create a new Static Site on Render
    - Connect your GitHub repository
-   - Set build command: `npm run build`
-   - Set publish directory: `build`
+   - Set **Root Directory**: `Frontend`
+   - Set **Build Command**: `npm run build`
+   - Set **Publish Directory**: `dist`
    - Add environment variable: `REACT_APP_API_URL=https://your-backend.onrender.com/api`
 
 3. **Update CORS Configuration**
