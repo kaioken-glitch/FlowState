@@ -1,7 +1,7 @@
 # 🎯 FlowState - Task Management Application
 
 <div align="center">
-  <img src="./Frontend/public/favicon.ico" alt="Duo Logo" width="100" height="100">
+  <img src="./Frontend/src/assets/logo.svg" alt="Duo Logo" width="100" height="100">
   
   **A modern, intuitive task management application built with React and Node.js**
   
