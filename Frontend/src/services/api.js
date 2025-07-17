@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://flowstate-backend.onrender.com/api'
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://flowstate-35j8.onrender.com/api'
 
 class ApiService {
   constructor() {
